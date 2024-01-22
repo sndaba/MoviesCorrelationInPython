@@ -4,9 +4,12 @@ Find what fields are directly correlated withthe gross revenue of a movie. It wi
 
 
 ## Data Cleaning
-```
-sthj
+The missing data section sees which field has missing data by percent. The for loop goes through the dataset to see if it has nulls in it
 
+```
+for col in df.columns:
+    pct_missing = np.meandf.[col].isnull()]
+    print('{} - {}%.format(col, pct_missing))
 ```
 
 
