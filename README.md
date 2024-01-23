@@ -1,6 +1,7 @@
 # Movies Correlation in Python
 ![movies](https://github.com/sndaba/MoviesCorrelationInPython/assets/53818579/ba928431-0125-4419-861c-c180acfbf858)
 
+
 This projects aims to find what fields are directly correlated with the gross revenue of a movie. It will be interesting to know what impcts the revenue of a film.
 
 ## Import libraries
