@@ -1,9 +1,10 @@
 # Movies Correlation in Python
+![movies](https://github.com/sndaba/MoviesCorrelationInPython/assets/53818579/ba928431-0125-4419-861c-c180acfbf858)
 
 This projects aims to find what fields are directly correlated with the gross revenue of a movie. It will be interesting to know what impcts the revenue of a film.
 
 ## Import libraries
-The libraries that are going to be used are pandas, numpy for data manipulation, matplotlib and seaborn for visuals.
+The libraries that are going to be used are pandas, numpy for data manipulation and transforming, matplotlib and seaborn for visuals.
 
 ```
 import pandas as pd
@@ -129,7 +130,7 @@ plt.show()
 ```
 df_numerized.corr(method='pearson')
 ```
-### 8. Pairng of correlated columns
+### 8. Pairing of correlated columns
 A sorted linear pairing of the correlated columns 
 
 ```
